@@ -12,7 +12,7 @@ WIDTH = 230
 HEIGHT = 300
 FPS = 31
 PLAYER = 8
-BGCOLOR = "#CDE988"
+BGCOLOR = "#FFFFFF"
 APP = "WannaWidget"
 USER = "limalimon"
 
