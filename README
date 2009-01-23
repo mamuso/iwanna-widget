@@ -1,0 +1,47 @@
+# Documentación de WannaWidget
+
+Esta es la glamourosa documentación del widget en flash para iwannagothere.net
+
+El proyecto está creado y compilado con [fluby](http://fluby.googlecode.com), con lo que (teóricamente) hacer cambios chorras (rollo "cambiar el logo") no debería tener mucha complejidad.
+
+El widget por defecto intentará cargar el XML de la misma ruta desde donde se haya cargado el SWF, pero sustituyendo el "swf" de la ruta por "xml".
+
+Por ejemplo, si el widget está en:
+
+    http://iwannagothere.net/swf/limalimon
+
+intentará cargar el XML desde:
+
+    http://iwannagothere.net/xml/limalimon
+
+Compilación
+-----------
+
+WannaWidget requiere
+
+* MTASC
+* swfmill
+* Ruby
+* rake
+
+Para compilar el proyecto:
+
+    $ cd WannaWidget
+    $ rake
+
+
+Hay un par más de tareas disponibles:
+
+    rake release  # Build a release version of WannaWidget (with trace() disabled)
+    rake doc      # Export this documentation to 'deploy/readme.html'
+
+He incluído una micro aplicación de [Sinatra](http://sinatrarb.com) para que se vea cómo funciona el tinglado... En un prodigio de complicación mental, la aplicación de Sinatra está en el mismo Rakefile, con lo que para lanzarla basta con ejecutar:
+
+    $ ruby Rakefile
+
+La aplicación requiere las gemas: sinatra, rdiscount y rake
+
+Como curiosidad, la aplicación recompila el SWF con cada petición, lo cual accidentalmente resulta ser una bendición a la hora de probar cambios :)
+
+--- 
+Creado con amor y cariño por Ale Muñoz más o menos en: Thu Oct 23 11:14:25 +0200 2008
