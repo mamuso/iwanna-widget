@@ -30,6 +30,9 @@ class WannaWidget {
             var logo = this.attachMovie("logo_mini","logo",100);
             logo._x = Stage.width - logo._width
             logo._y = Stage.height - logo._height
+            logo.onRelease = function(){
+                getURL("http://iwannagothere.net/", "_blank")
+            }
             // show preloader
             Stage.addListener(this);
         }
