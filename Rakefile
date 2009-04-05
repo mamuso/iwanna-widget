@@ -48,7 +48,7 @@ configure do
     end
     puts %x(swfmill simple #{APP}.xml #{APP}.swf)
     rm "#{APP}.xml"
-    puts %x(mtasc -swf #{APP}.swf -main -mx -version #{PLAYER} #{trace} #{APP}.as)
+    puts %x(mtasc -v -swf #{APP}.swf -main -mx -version #{PLAYER} #{trace} #{APP}.as)
     @end = Time.now
 
     ["*.html","*.swf"].each do |list|

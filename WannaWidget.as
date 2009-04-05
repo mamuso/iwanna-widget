@@ -31,7 +31,7 @@ class WannaWidget {
             logo._x = Stage.width - logo._width
             logo._y = Stage.height - logo._height
             logo.onRelease = function(){
-                getURL("http://iwannagothere.net/", "_blank")
+                getURL("http://iwannagothere.com/", "_blank")
             }
             // show preloader
             Stage.addListener(this);
@@ -44,7 +44,7 @@ class WannaWidget {
     if(swf_path.indexOf("swf") != 1){
       var xml_path = swf_path.split("swf")[0] + "xml" + swf_path.split("swf")[1];
       xml_loader = new Loader(xml_path,Delegate.create(this,on_data_ready));
-/*      xml_loader = new Loader("http://iwannagothere.net/xml/limalimon",Delegate.create(this,on_data_ready));*/
+/*      xml_loader = new Loader("http://iwannagothere.com/xml/limalimon",Delegate.create(this,on_data_ready));*/
       xml_loader.load();
     } else {
       _timeline.username.htmlText = "Error cargando!";

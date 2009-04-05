@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed username="limalimon" url="http://iwannagothere.net/users/limalimon">
+<feed username="limalimon" url="http://iwannagothere.com/users/limalimon">
   <visited>
-    <place name="Opština Žabljak" url="http://iwannagothere.net/wadus" />
-    <place name="文京区本駒込" url="http://iwannagothere.net/wadus" />
-    <place name="Wadus" url="http://iwannagothere.net/wadus" />
+    <place name="Opština Žabljak" url="http://iwannagothere.com/wadus" />
+    <place name="文京区本駒込" url="http://iwannagothere.com/wadus" />
+    <place name="Wadus" url="http://iwannagothere.com/wadus" />
   </visited>
   <wannago>
-    <place name="Wadus" url="http://iwannagothere.net/wadus" />
-    <place name="Opština Žabljak" url="http://iwannagothere.net/wadus" />
-    <place name="文京区本駒込" url="http://iwannagothere.net/wadus" />
+    <place name="Wadus" url="http://iwannagothere.com/wadus" />
+    <place name="Opština Žabljak" url="http://iwannagothere.com/wadus" />
+    <place name="文京区本駒込" url="http://iwannagothere.com/wadus" />
   </wannago>
   <last_added>
-    <place name="文京区本駒込" url="http://iwannagothere.net/wadus" />
-    <place name="El lugar con el nombre más largo del planeta tierra, pardiez!" url="http://iwannagothere.net/wadus" />
-    <place name="Opština Žabljak" url="http://iwannagothere.net/wadus" />
+    <place name="文京区本駒込" url="http://iwannagothere.com/wadus" />
+    <place name="El lugar con el nombre más largo del planeta tierra, pardiez!" url="http://iwannagothere.com/wadus" />
+    <place name="Opština Žabljak" url="http://iwannagothere.com/wadus" />
   </last_added>
 </feed>

@@ -1,6 +1,6 @@
 # Documentación de WannaWidget
 
-Esta es la glamourosa documentación del widget en flash para iwannagothere.net
+Esta es la glamourosa documentación del widget en flash para iwannagothere.com
 
 El proyecto está creado y compilado con [fluby](http://fluby.googlecode.com), con lo que (teóricamente) hacer cambios chorras (rollo "cambiar el logo") no debería tener mucha complejidad.
 
@@ -8,11 +8,11 @@ El widget por defecto intentará cargar el XML de la misma ruta desde donde se h
 
 Por ejemplo, si el widget está en:
 
-    http://iwannagothere.net/swf/limalimon
+    http://iwannagothere.com/swf/limalimon
 
 intentará cargar el XML desde:
 
-    http://iwannagothere.net/xml/limalimon
+    http://iwannagothere.com/xml/limalimon
 
 Compilación
 -----------
